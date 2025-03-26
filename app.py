@@ -40,7 +40,7 @@ def predict():
     
     except Exception as e:
         return render_template('result.html', prediction_text=f"Error: {str(e)}")
-    return render_template('result.html', prediction_text=f"Error: {str(e)}")
+    
     
 
 if __name__ == '__main__':
